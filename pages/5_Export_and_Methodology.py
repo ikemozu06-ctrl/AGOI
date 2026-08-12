@@ -29,7 +29,6 @@ from agoi import config                     # noqa: E402
 from agoi.registry import INDICATORS        # noqa: E402
 
 page_icon="⬇️"(page_title="Export & methodology · AGOI™", page_icon=page_icon("⬇️"), layout="wide")
-show_logo()
 inject_css()
 st.title("⬇️ Export centre & methodology")
 
