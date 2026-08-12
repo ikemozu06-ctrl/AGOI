@@ -30,7 +30,7 @@ from agoi import config                                # noqa: E402
 from agoi.nigeria import states as NS                  # noqa: E402
 from agoi.nigeria.index import as_rows, PILLARS        # noqa: E402
 
-st.set_page_config(page_title="Nigeria States · AGOI™", page_icon=page_icon("🇳🇬"), layout="wide")
+page_icon="🇳🇬"(page_title="Nigeria States · AGOI™", page_icon=page_icon("🇳🇬"), layout="wide")
 show_logo()
 inject_css()
 
