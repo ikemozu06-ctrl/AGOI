@@ -27,7 +27,7 @@ _bootstrap_agoi_path()
 from _shared import get_data, band_pill, inject_css   # noqa: E402, show_logo, page_icon
 from agoi import config                                # noqa: E402
 
-st.set_page_config(page_title="Country profile · AGOI™", page_icon=page_icon("🌍"), layout="wide")
+page_icon="🌍"(page_title="Country profile · AGOI™", page_icon=page_icon("🌍"), layout="wide")
 show_logo()
 inject_css()
 st.title("📋 Country profile")
