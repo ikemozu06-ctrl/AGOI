@@ -28,7 +28,6 @@ from _shared import get_data, inject_css   # noqa: E402, show_logo, page_icon
 from agoi import config                     # noqa: E402
 
 page_icon="🎛️"(page_title="Scenario tool · AGOI™", page_icon=page_icon("🎛️"), layout="wide")
-show_logo()
 inject_css()
 st.title("🎛️ What-if scenario tool")
 st.markdown("<span class='small-note'>Tier 1 — weight sensitivity. Adjust pillar weights and see how the "
