@@ -29,7 +29,6 @@ from agoi.agesi import instruments as ins          # noqa: E402
 from agoi.natcap import fipre as F                 # noqa: E402
 
 page_icon="🏦"(page_title="AGESI Instruments · AGOI™", page_icon=page_icon("🏦"), layout="wide")
-show_logo()
 inject_css()
 
 st.title("🏦 AGESI Instruments — CGV & NEAI")
