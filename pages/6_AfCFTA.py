@@ -31,7 +31,6 @@ from agoi.afcfta import elasticity as el             # noqa: E402
 from agoi.afcfta import engine, data                 # noqa: E402
 
 page_icon="🌍"page_title="AfCFTA · AGOI™", page_icon=page_icon("🌍"), layout="wide")
-show_logo()
 inject_css()
 
 st.title("🌍 AfCFTA Readiness & Scenario Explorer")
