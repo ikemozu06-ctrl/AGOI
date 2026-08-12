@@ -31,7 +31,6 @@ from agoi.afcfta import elasticity as el         # noqa: E402
 from agoi.afcfta import engine                   # noqa: E402
 
 page_icon="🌍"(page_title="Corridor simulator · AGOI™", page_icon=page_icon("🛣️"), layout="wide")
-show_logo()
 inject_css()
 
 st.title("🛣️ Corridor Simulator — Lagos–Abidjan")
