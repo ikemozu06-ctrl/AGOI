@@ -30,7 +30,7 @@ from agoi.afcfta import config as acfg           # noqa: E402
 from agoi.afcfta import elasticity as el         # noqa: E402
 from agoi.afcfta import engine                   # noqa: E402
 
-st.set_page_config(page_title="Corridor simulator · AGOI™", page_icon=page_icon("🛣️"), layout="wide")
+page_icon="🌍"(page_title="Corridor simulator · AGOI™", page_icon=page_icon("🛣️"), layout="wide")
 show_logo()
 inject_css()
 
