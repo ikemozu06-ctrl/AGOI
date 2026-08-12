@@ -31,7 +31,6 @@ from agoi.natcap import valuation as V                # noqa: E402
 from agoi.natcap import fipre as F                     # noqa: E402
 
 page_icon="🌿"(page_title="Natural Capital · AGOI™", page_icon=page_icon("🌿"), layout="wide")
-show_logo()
 inject_css()
 
 st.title("🌿 Natural Capital — Map, Value, Screen")
