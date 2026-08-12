@@ -28,7 +28,6 @@ from _shared import get_data, band_pill, inject_css   # noqa: E402, show_logo, p
 from agoi import config                                # noqa: E402
 
 page_icon="🌍"(page_title="Country profile · AGOI™", page_icon=page_icon("🌍"), layout="wide")
-show_logo()
 inject_css()
 st.title("📋 Country profile")
 
