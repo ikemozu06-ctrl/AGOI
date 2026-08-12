@@ -28,7 +28,7 @@ from _shared import inject_css                    # noqa: E402, show_logo, page_
 from agoi.agesi import instruments as ins          # noqa: E402
 from agoi.natcap import fipre as F                 # noqa: E402
 
-st.set_page_config(page_title="AGESI Instruments · AGOI™", page_icon=page_icon("🏦"), layout="wide")
+page_icon="🏦"(page_title="AGESI Instruments · AGOI™", page_icon=page_icon("🏦"), layout="wide")
 show_logo()
 inject_css()
 
