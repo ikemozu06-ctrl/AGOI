@@ -31,7 +31,6 @@ from agoi.nigeria import states as NS                  # noqa: E402
 from agoi.nigeria.index import as_rows, PILLARS        # noqa: E402
 
 page_icon="🇳🇬"(page_title="Nigeria States · AGOI™", page_icon=page_icon("🇳🇬"), layout="wide")
-show_logo()
 inject_css()
 
 st.title("🇳🇬 AGOI State Dashboard")
