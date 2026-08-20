@@ -24,11 +24,11 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-from _shared import inject_css                    # noqa: E402, show_logo, page_icon
+from _shared import inject_css                    # noqa: E402
 from agoi.agesi import instruments as ins          # noqa: E402
 from agoi.natcap import fipre as F                 # noqa: E402
 
-page_icon="🏦"(page_title="AGESI Instruments · AGOI™", page_icon=page_icon("🏦"), layout="wide")
+st.set_page_config(page_title="AGESI Instruments · AGOI™", page_icon="🏦", layout="wide")
 inject_css()
 
 st.title("🏦 AGESI Instruments — CGV & NEAI")

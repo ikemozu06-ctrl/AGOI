@@ -25,12 +25,12 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-from _shared import inject_css                       # noqa: E402, show_logo, page_icon
+from _shared import inject_css                       # noqa: E402
 from agoi.natcap import assets as A                   # noqa: E402
 from agoi.natcap import valuation as V                # noqa: E402
 from agoi.natcap import fipre as F                     # noqa: E402
 
-page_icon="🌿"(page_title="Natural Capital · AGOI™", page_icon=page_icon("🌿"), layout="wide")
+st.set_page_config(page_title="Natural Capital · AGOI™", page_icon="🌿", layout="wide")
 inject_css()
 
 st.title("🌿 Natural Capital — Map, Value, Screen")

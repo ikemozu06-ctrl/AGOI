@@ -24,10 +24,10 @@ def _bootstrap_agoi_path():
             sys.path.insert(0, extra)
 
 _bootstrap_agoi_path()
-from _shared import get_data, band_pill, inject_css   # noqa: E402, show_logo, page_icon
+from _shared import get_data, band_pill, inject_css   # noqa: E402
 from agoi import config                                # noqa: E402
 
-page_icon="🌍"(page_title="Country profile · AGOI™", page_icon=page_icon("🌍"), layout="wide")
+st.set_page_config(page_title="Country profile · AGOI™", page_icon="🌍", layout="wide")
 inject_css()
 st.title("📋 Country profile")
 

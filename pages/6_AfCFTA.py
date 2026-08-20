@@ -25,12 +25,12 @@ def _bootstrap_agoi_path():
 
 _bootstrap_agoi_path()
 
-from _shared import inject_css                       # noqa: E402, show_logo, page_icon
+from _shared import inject_css                       # noqa: E402
 from agoi.afcfta import config as acfg               # noqa: E402
 from agoi.afcfta import elasticity as el             # noqa: E402
 from agoi.afcfta import engine, data                 # noqa: E402
 
-page_icon="🌍"page_title="AfCFTA · AGOI™", page_icon=page_icon("🌍"), layout="wide")
+st.set_page_config(page_title="AfCFTA · AGOI™", page_icon="🌍", layout="wide")
 inject_css()
 
 st.title("🌍 AfCFTA Readiness & Scenario Explorer")
